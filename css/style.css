@@ -1,0 +1,394 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1155px;
+    }
+}
+
+/*
+################
+Start Header 
+################
+*/
+
+.header-wrapper {
+    border-top: 4px solid #81b300;
+}
+
+.logo-wrapper {
+    float: left;
+    display: block;
+    margin-top: 45px;
+}
+
+.right-side-header-wrapper {
+    position: relative;
+}
+
+.social-icons-wrapper {
+    background-color: #81b300;
+    width: 313px;
+    height: 60px;
+    padding-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    right: 0px;
+}
+
+.social-icons-wrapper li {
+    list-style: none;
+    float: left;
+    margin-top: -5px;
+    padding: 0 1%;
+}
+
+.links-wrapper {
+    float: right;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    margin-top: 105px;
+    margin-bottom: 40px;
+}
+
+.links-wrapper li {
+    list-style: none;
+    float: left;
+    padding-left: 8px;
+    margin-left: 8px;
+    border-left: solid 1px #81b300;
+}
+
+.links-wrapper li a:link,
+.links-wrapper li a:visited {
+    text-decoration: none;
+    color: #81b300;
+    font-size: 15px;
+}
+
+#no-border {
+    border-left: hidden;
+}
+
+.menu-section-wrapper {
+    width: 100%;
+    height: 85px;
+    background-color: #81b300;
+}
+
+.menu-wrapper li {
+    list-style: none;
+    float: left;
+    padding-right: 23px;
+}
+
+.menu-wrapper li a:link,
+.menu-wrapper li a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.menu-wrapper li a:hover {
+    color: #131b00;
+}
+
+.menu-wrapper ul {
+    margin-top: 36px;
+    float: left;
+    padding-left: 0px;
+}
+
+.searchbar-wrapper {
+    margin-top: 23px;
+    width: 335px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ababab;
+    float: right;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    color: #81b300;
+    border: none;
+    float: right;
+    border-left: 1px solid #ababab;
+    width: 84px;
+    height: 100%;
+}
+
+#search-bar {
+    background-color: white;
+    border: none;
+    padding: 4px;
+    width: calc(100% - 84px);
+    height: 100%;
+    font-size: 15px;
+}
+
+/*
+################
+End Header 
+################
+*/
+
+/*
+################
+Start Content
+################
+*/
+
+.slider-wrapper {
+    background-color: #f2f2f2;
+}
+
+.slider {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    margin-bottom: 12px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-controls {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 37px;
+}
+
+.content-wrapper {
+    background-color: #ffffff;
+}
+
+.service-item {
+    float: left;
+    width: calc(25% - 24px);
+    padding: 25px;
+    text-align: center;
+    margin: 0 12px;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.service-item a:link h3,
+.service-item a:visited h3 {
+    text-decoration: none;
+    color: #81b300;
+}
+
+.service-item a:link p,
+.service-item a:visited p {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+a:link{
+    text-decoration: none!important;
+    cursor: pointer;
+  }
+
+.service-item p {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.services-inside-wrapper {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.service-img-wrapper img {
+    margin-top: 45px;
+    margin-bottom: 24px;
+}
+
+.work-item {
+    float: left;
+    width: calc(25% - 24px);
+    margin: 0 12px;
+}
+
+.work-img-wrapper {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.work-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.work-text-wrapper h3 {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.work-text-wrapper a:link h3,
+.work-text-wrapper a:visited h3 {
+    text-decoration: none;
+    color: #444444;
+}
+
+.work-text-wrapper p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.work-text-wrapper a:link p,
+.work-text-wrapper a:visited p {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.link-wrapper {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.link-wrapper a:link,
+.link-wrapper a:visited {
+    text-decoration: none;
+    color: #81b300;
+}
+
+/*
+################
+End Content
+################
+*/
+
+/*
+################
+Start Footer
+################
+*/
+
+.footer-wrapper {
+    background-color: #3b3b3b;
+}
+
+
+
+.footer-item {
+    float: left;
+    width: calc(25% - 24px);
+    margin: 0 12px;
+}
+
+.foot-name h4 {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.foot-p1 p {
+    color: #999999;
+}
+
+#no-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+.foot-links a {
+    display: block;
+    padding: 6px 0;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+}
+
+.foot-links a:link,
+.foot-links a:visited {
+    text-decoration: none;
+    color: #999999;
+}
+
+.footer-blog h6 {
+    font-weight: 900;
+    color: #999999;
+    font-size: 16px;
+}
+
+.footer-blog p {
+    color: #999999;
+    font-size: 15px;
+}
+
+.footer-read-more {
+    width: 100%;
+    text-align: right;
+    font-size: 15px;
+}
+
+.footer-read-more a:link,
+.footer-read-more a:visited {
+    color: #81b300;
+}
+
+#form {
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #1f1f1f;
+}
+
+#submit {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #81b300;
+    padding: 7px 20px;
+}
+
+.footer-end-wrapper {
+    background-color: #2e2e2e;
+}
+
+.footer-end-content-wrapper {
+    padding: 30px 0px 50px 0px;
+}
+
+.copyright {
+    float: left;
+    font-size: 15px;
+    color: #737373;
+}
+
+.creator {
+    float: right;
+    font-size: 15px;
+}
+
+.creator a:link,
+.creator a:visited {
+    color: #737373;
+}
+
+/*
+################
+End Footer
+################
+*/
